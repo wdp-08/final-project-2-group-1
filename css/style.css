@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "nunito", sans-serif;
+  color: #234cad;
+}
+
+section {
+  margin-top: 150px;
+}
+
+
+/*component*/
+
+.btn-outline-auth {
+  border: 2px solid #234cad;
+  border-radius: 25px;
+  background-color: #ffff;
+  padding: 10px 44px !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-auth {
+  border-radius: 25px;
+  background-color: #f2f6ff;
+  padding: 8px 33px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+.btn-outline-hero {
+  border: 2px solid #234cad;
+  border-radius: 35px;
+  background-color: transparent;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.btn-hero {
+  border: none;
+  border-radius: 35px;
+  background-color: #ffff;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/*navbar*/
+nav .navbar-nav a {
+  margin: 25px 20px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/*jumbotron*/
+.jumbotron .hero {
+  background-color: #f2f6ff;
+  border-radius: 60px;
+}
+
+.jumbotron .content {
+  padding: 0 100px 100px;
+}
+
+.jumbotron .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.jumbotron .content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media (min-width: 992px) {
+  .jumbotron .content {
+    padding: 100px;
+  }
+}
+
+@media (max-width: 460px) {
+  .jumbotron .content h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 400px) {
+  .jumbotron .content h1 {
+    font-size: 34px;
+  }
+}
