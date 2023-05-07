@@ -9,13 +9,19 @@
     border-color: #6c757d !important;
   }
 
+  .jumbotron-box {
+    width: 150%;
+    height: 100%;
+    border-radius: 5%;
+  }
+
   .lingkaran {
     border: 3px solid #234CAD;
     border-radius: 40%;
     padding: 8px; 
   }
 
-  .text {
+  .title {
     color: #234CAD;
     font-family: 'Nunito';
     font-style: normal;
@@ -24,7 +30,20 @@
     line-height: 56px;
   }
 
-  .standup {
+  .sub-title {
+    left: 0%;
+    right: 70.77%;
+    top: 52.35%;
+    bottom: 38.61%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+  }
+
+  .daily {
     height: 21px;
     left: 0%;
     right: 11.02%;
@@ -53,4 +72,8 @@
 
     color: #234CAD;
 
+  }
+
+  .card.mb-3 {
+    margin-top: 25px;
   }
