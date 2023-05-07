@@ -8,3 +8,8 @@
     background-color: #6c757d !important;
     border-color: #6c757d !important;
   }
+
+  .lingkaran {
+    border: 3px solid #007bff;
+    border-radius: 1000px;
+  }
