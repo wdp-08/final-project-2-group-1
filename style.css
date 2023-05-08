@@ -83,10 +83,22 @@
   color: #234CAD;
 }
 
-.btn-price {
+.btn-jumbotron {
   border: 2px solid #234cad;
   border-radius: 35px;
   background-color: transparent;
+  padding: 10px 50px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #234CAD;
+}
+
+.btn-price {
+  border: 2px solid #fff;
+  border-radius: 35px;
+  background-color: #fff;
   padding: 10px 50px;
   font-family: 'Nunito';
   font-style: normal;
