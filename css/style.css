@@ -97,6 +97,155 @@ nav .navbar-nav a {
   }
 }
 
+/* Product-features1 & Product-feature2 */
+.product-features1 .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.product-features1 .content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.product-features1 .card-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.product-features1 h3{
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.product-features2 .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.product-features2 .content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.product-features2 .hero {
+  background-color: #f2f6ff;
+  border-radius: 60px;
+}
+
+.product-features2 .content {
+  padding: 0 100px 100px;
+}
+
+.spencers {
+  height: 21px;
+  left: 0%;
+  right: 34.83%;
+  top: calc(50% - 21px/2 - 12px);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.time {
+  height: 13px;
+  left: 83.48%;
+  right: 0%;
+  top: calc(50% - 13px/2 - 16px);
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  margin-left: 80px;
+}
+
+.time-ami {
+  height: 13px;
+  left: 83.48%;
+  right: 0%;
+  top: calc(50% - 13px/2 - 16px);
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  margin-left: 100px;
+}
+
+.gb{
+  height: 21px;
+  left: 0%;
+  right: 49.38%;
+  top: calc(50% - 21px/2 + 12px);
+
+  font-family: 'Basic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.date {
+  height: 21px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 21px/2 + 12px);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.seen {
+  height: 21px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 21px/2 + 12px);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.background {
+  box-sizing: border-box;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #F5F5F5;
+  border: 5px solid #F5F5F5;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 992px) {
+  .product-features1 .content {
+    padding: 100px;
+  }
+}
+
+@media (max-width: 460px) {
+  .product-features1 .content h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 400px) {
+  .product-features1 .content h1 {
+    font-size: 34px;
+  }
+}
+
+
 /*Contact dan Footer*/
 .contact .hero {
   background-color: #f2f6ff;
