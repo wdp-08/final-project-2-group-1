@@ -97,6 +97,81 @@ nav .navbar-nav a {
   }
 }
 
+/*content*/
+
+
+.content1 img{
+  width: 250px;
+}
+
+.content1{
+  margin-top: -90px;
+  margin-left: -180px;
+}
+
+.content2 img{
+  width: 600px;
+}
+
+.content2{
+  margin-top: -190px;
+  margin-left: -235px;
+}
+
+.content3 img{
+  width: 500px;
+}
+
+.content3{
+  margin-top: -230px;
+  margin-left: -225px;
+}
+
+.content4 img{
+  width: 320px;
+}
+
+.content4 {
+  margin-top: -530px;
+  margin-left: 130px;
+}
+
+.content5 img{
+  width: 500px;
+}
+
+.content5 {
+  margin-top: -195px;
+  margin-left: 50px;
+}
+
+.content6 img{
+  width: 380px;
+}
+
+.content6 {
+  margin-top: -195px;
+  margin-left: 150px;
+}
+
+.content7 img{
+  width: 250px;
+}
+
+.content7 {
+  margin-top: -170px;
+  margin-left: 160px;
+}
+
+.content8 img{
+  width: 550px;
+}
+
+.content8 {
+  margin-top: -330px;
+  margin-left: -200px;
+}
+
 /* Product-features1 & Product-feature2 */
 .product-features1 .box {
   width: 575px;
