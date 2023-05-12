@@ -451,32 +451,36 @@ nav .navbar-nav a {
   line-height: 26px;
   text-align: center;
 }
-
-.input-group {
+.form-input {
   text-align: center;
 }
 
-input[type=text] {
+input{
   background: #FFFFFF;
   border-radius: 17.5px;
   border: none;
   padding: 10px;
-  width: 420px;
-  height: 45px;
+  width: 500px;
+  height: 65px;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
   mix-blend-mode: normal;
   opacity: 0.5;
+  outline: none; 
+  box-sizing: border-box;
+  outline: none;
 }
 
-.input-group button {
+.form-input button {
+  position: absolute;
+  margin: 10px -60px 5px;
+  z-index: 100;
+  background-color: #234CAD;
   width: 45px;
   height: 45px;
-  background: #234CAD;
   border-radius: 12.5px;
   border: none;
-  padding: 5px 12px 5px 12px;
 }
 
 .box-container {
@@ -489,10 +493,12 @@ input[type=text] {
   font-weight: 700;
   font-size: 30px;
   line-height: 49px;
+  padding: 10px;
 }
 
-.box-container .row p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 29px;
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+  color: #234CAD;
+  padding: 5px;
 }
